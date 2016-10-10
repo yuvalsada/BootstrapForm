@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Registration Form</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Registration Form</h2>
+  <form>
+ <div class="form-group">
+      <label for="fn">First Name:</label>
+      <input type="name" class="form-control" id="fn" placeholder="Enter your first name">
+    </div>
+ <div class="form-group">
+      <label for="ln">Last Name:</label>
+      <input type="name" class="form-control" id="ln" placeholder="Enter your last name">
+    </div>
+ <div class="form-group">
+      <label for="name">Username:</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter username">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+ <div class="form-group">
+      <label for="rpwd">Approve Your Password:</label>
+      <input type="password" class="form-control" id="rpwd" placeholder="Re enter password">
+    </div>
+    <p><b> Birth Date:</b></p>
+<div class="col-xs-1">
+  <label for="day"></label>
+  <input class="form-control" id="day" type="number" placeholder="DD">
+</div>
+<div class="col-xs-1">
+  <label for="month"></label>
+  <input class="form-control" id="month" type="number" placeholder="MM">
+</div>
+<div class="col-xs-1">
+  <label for="year"></label>
+  <input class="form-control" id="year" type="number" placeholder="YY">
+</div>
+<p></p>
+    <div class="dropdown">
+    <p><b>Choose Gender:</b></p>
+<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+<li><a href="#">Male</a></li>
+      <li><a href="#">Female</a></li>
+    </ul>
+<p></p>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="pn">Phone:</label>
+      <input type="phone" class="form-control" id="pn" placeholder="Enter phone number">
+    </div>
+<div class="form-group">
+      <label for="ad">Address:</label>
+      <input type="address" class="form-control" id="ad" placeholder="Enter address">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+</body>
+</html>
+
